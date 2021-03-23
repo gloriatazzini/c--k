@@ -1,0 +1,238 @@
+@font-face {
+  font-family: 'Provafont';
+  src: url('AkzidenzGrotesk-Extended.otf');
+}
+
+
+#progetto {
+  left: 5vw;
+  top:5vh;
+  color: red;
+  position: absolute;
+  margin: 30;
+  font-family: 'Provafont';
+  z-index:10;
+
+}
+
+#progetto:hover {
+  animation-name: example;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: black;}
+  35%  {color: black;}
+  60%  {color: red;}
+  70% {color:red;}
+  100% {color: black;}
+}
+
+#container{
+  display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+
+-webkit-box-align: center;
+-moz-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+
+-webkit-box-pack: center;
+-moz-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center
+}
+
+#zinecollection {
+
+  font-family: Arial;
+  color: red;
+  position: absolute;
+  margin: 30;
+
+
+top:5vh;
+z-index:12;
+
+
+
+
+
+}
+
+#contatti {
+  right: 5vw;
+  top:5vh;
+  font-family: Arial;
+  color: red;
+  position: absolute;
+  margin: 30;
+  z-index:11;
+}
+
+#instagram {
+  font-family: Arial;
+  color: red;
+  position: absolute;
+  z-index:10;
+  margin: 30;
+  left: 5vw;
+ bottom:5vh;
+
+}
+
+#mostra {
+  font-family: Arial;
+  color: red;
+  position: absolute;
+  z-index:10;
+  margin: 30;
+  right: 5vw;
+  bottom:5vh;
+}
+
+#logo {
+  font-size:33;
+  color:blue;
+  height: 100%;
+ width: 100%;
+ display: flex;
+ position: absolute;
+ align-items: center;
+ justify-content: center;
+z-index:1;
+}
+
+
+#logopost {
+  font-size:33;
+  color:blue;
+  height: 100%;
+ width: 100%;
+ display: flex;
+ position: absolute;
+ align-items: center;
+ justify-content: center;
+ z-index:2;
+
+}
+
+
+#logosfarfalla:hover {
+  filter:saturate(10);
+  cursor:pointer;
+}
+
+#orgasmo {
+  width:100%;
+
+
+}
+
+#testo {
+
+  font-family: Arial;
+  color: red;
+  position: absolute;
+  margin: 30;
+top:15vh;
+width:520px;
+z-index:12;
+text-align: justify;
+}
+
+
+
+body {
+  background-color:  white;
+}
+
+html {
+  font-size: 16px;
+}
+
+
+
+
+html,
+body,
+.videovideo,
+ {
+  height: 65%;
+  margin: 30;
+}
+.videovideo {
+  margin: auto 2em;
+  text-align: center;
+}
+video {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 70%;
+  margin: 20px auto;
+}
+
+
+
+html,
+body,
+.fotofoto, {
+  height: 100%;
+  margin: 30;
+}
+
+
+.fotofoto {
+  margin: auto 2em;
+  text-align: center;
+}
+img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 70%;
+  margin: 20px auto;
+}
+
+
+
+
+.fade {
+  opacity:0;
+}
+
+@font-face {
+         font-family: 'Provafont';
+        src: url(Akzidenz-grotesk-roman.ttf);
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 1000px) {
+  #zinecollection, #progetto {
+    font-size: 1.8em;
+}
+#testo {
+    font-size: 1.4em;
+}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #zinecollection, #progetto {
+    font-size: 25px;
+  }
+  #testo {
+      font-size:13px;
+      width:200px;
+  }
+}
